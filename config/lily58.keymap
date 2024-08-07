@@ -64,11 +64,11 @@
 
             display-name = "Lower";
             bindings = <
-&kp GRAVE  &trans           &trans        &trans                &trans                &trans                                 &trans  &trans    &trans    &trans     &trans  &tog 3
-&trans     &trans           &trans        &trans                &trans                &trans                                 &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans     &kp C_VOLUME_UP  &kp C_VOL_DN  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans                                 &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans     &trans           &trans        &trans                &trans                &trans  &kp LC(LEFT)    &kp RC(RIGHT)  &trans  &trans    &trans    &trans     &trans  &trans
-                                          &trans                &trans                &trans  &trans          &trans         &trans  &trans    &trans
+&kp GRAVE  &trans                &trans                &trans                &trans                &trans                                 &trans  &trans    &trans    &trans     &trans  &tog 3
+&trans     &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans                &trans                &trans                                 &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans     &kp C_VOLUME_UP       &kp C_VOL_DN          &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans                                 &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans     &trans                &trans                &trans                &trans                &trans  &kp LC(LEFT)    &kp RC(RIGHT)  &trans  &trans    &trans    &trans     &trans  &trans
+                                                       &trans                &trans                &trans  &trans          &trans         &trans  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -94,7 +94,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        layer_3 {
+        Game {
             bindings = <
 &kp ESC         &trans  &kp N1  &kp N2  &kp N3  &kp N4                          &trans  &trans    &trans    &trans     &trans  &tog 3
 &kp TAB         &trans  &kp Q   &kp W   &kp E   &kp R                           &trans  &trans    &kp UP    &trans     &trans  &trans
